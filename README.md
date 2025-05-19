@@ -2,8 +2,8 @@
 
 ## Quick Setup
 
-1. **Install UV package manager** (requires PowerShell):
-```powershell -c "irm https://astral.sh/uv/install.ps1 | iex"```
+1. **Install UV package manager**:
+https://docs.astral.sh/uv/getting-started/installation/
 
 2. **Clone and initialize project**:
 ```git clone https://github.com/DominikZurawski/agents.git```
