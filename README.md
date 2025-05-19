@@ -6,10 +6,12 @@
 https://docs.astral.sh/uv/getting-started/installation/
 
 2. **Clone and initialize project**:
-```git clone https://github.com/DominikZurawski/agents.git```
-```cd agents```
+```
+git clone https://github.com/DominikZurawski/agents.git
+cd agents
+```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 ```uv sync```
 
 ## Environment Configuration
