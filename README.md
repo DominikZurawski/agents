@@ -45,3 +45,5 @@ Modular production-grade system for autonomous research operations:
 - **WriterAgent**: Report generation with Pydantic validation
 - **RateLimiter**: API usage optimization
 - **Email_agent**: SendGrid integration for result distribution
+
+Check on HuggingFace: https://huggingface.co/spaces/Domino675/Deep_Research_and_send_email
