@@ -81,7 +81,7 @@ class TestAccount(unittest.TestCase):
     def test_get_profit_loss_report(self):
         self.account.buy_shares("AAPL", 2)
         report = self.account.get_profit_loss_report(1000.0)
-        self.assertIn("Profit/Loss: $\", report)
+        self.assertIn("Profit/Loss: $\ ", report)
 
 if __name__ == '__main__':
     unittest.main()
