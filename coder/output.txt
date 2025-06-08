@@ -1,0 +1,10 @@
+Calculated Value: 3.1414926535900345
+Code:
+total = 0.0
+for i in range(10000):
+    term = 1 / (2 * i + 1)
+    if i % 2 == 0:
+        total += term
+    else:
+        total -= term
+result = total * 4
