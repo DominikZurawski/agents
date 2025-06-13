@@ -28,22 +28,3 @@ This branch introduces experimental features for evaluating LLM performance and 
 
 
 ## Core Components
-- **Jupyter Notebook Tutorials**
-  Four foundational guides demonstrating agent orchestration:
-  - `intro.ipynb`: SDK fundamentals and execution tracing
-  - `EmailAgent.ipynb`: Multi-agent email workflow system
-  - `Guardrail.ipynb`: Security validation patterns
-  - `Deep Research.ipynb`: Automated research pipeline with structured outputs
-
-## Deep Research Application (`/deep_research`)
-```
-uv run app.py
-```
-Modular production-grade system for autonomous research operations:
-- **ResearchManager**: Core orchestration
-- **PlannerAgent**: Web search strategy formulation
-- **WriterAgent**: Report generation with Pydantic validation
-- **RateLimiter**: API usage optimization
-- **Email_agent**: SendGrid integration for result distribution
-
-Check on HuggingFace: https://huggingface.co/spaces/Domino675/Deep_Research_and_send_email
